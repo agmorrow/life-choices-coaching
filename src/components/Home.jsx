@@ -1,8 +1,8 @@
-import * as React from 'react';
+import React from 'react';
 
 export const Home = () => {
   return (
-    <div>
+    <div className='bg-indigo-600 w-full h-screen'>
       <h1>Hello, World</h1>
     </div>
   );

@@ -1,6 +1,6 @@
-import * as React from 'react';
+import React from 'react';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import AppBar from './components/AppBar'; 
+import Navbar from './components/Navbar'; 
 import Home from './components/Home';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className='App'>
       <BrowserRouter>
       <div>
-        <AppBar />
+        <Navbar />
 
         <Routes>
           <Route path='/' element={<Home/>}/>

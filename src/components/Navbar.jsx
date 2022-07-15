@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Button from './Button';
-import LifeChoicesLogo from '../assets/life_choices.png'
+import LifeChoicesLogo from '../assets/life_choices.png';
+import {Link} from 'react-router-dom';
 
 const Navbar = () => {
     let Links =[
@@ -32,9 +33,10 @@ const Navbar = () => {
           ))
           
         }
-        <Button>
-          CONTACT
-        </Button>
+        
+          <Link as={Link} to='/contact'><Button>CONTACT</Button></Link>
+
+
       </ul>
       </div>
     </div>

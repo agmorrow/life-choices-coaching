@@ -2,7 +2,7 @@ import React from 'react'
 
 const HowItWorks = () => {
   return (
-    <div>HowItWorks</div>
+    <div className='bg-yellow-600 w-full h-screen'>HowItWorks</div>
   )
 }
 

@@ -5,9 +5,9 @@ import LifeChoicesLogo from '../assets/life_choices.png'
 const Navbar = () => {
     let Links =[
       {name:"HOME",link:"/"},
-      {name:"SERVICE",link:"/"},
-      {name:"HOW IT WORKS",link:"/"},
-      {name:"ABOUT",link:"/"},
+      {name:"SERVICES",link:"/services"},
+      {name:"HOW IT WORKS",link:"/howitworks"},
+      {name:"ABOUT",link:"/about"},
     ];
     let [open,setOpen]=useState(false);
   return (
@@ -30,6 +30,7 @@ const Navbar = () => {
               <a href={link.link} className='text-gray-800 hover:text-gray-400 duration-500'>{link.name}</a>
             </li>
           ))
+          
         }
         <Button>
           CONTACT

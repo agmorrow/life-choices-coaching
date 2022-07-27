@@ -2,7 +2,7 @@ import React from 'react'
 
 const HowItWorks = () => {
   return (
-    <div>
+    <div className="mx-20">
       <h1>What is Life Coaching?</h1>
       <p>Life coaching is a process of goals set by you. We all know each step has roadblocks. We discuss roadblocks and what options you have when they occur. Life coaching is a method to practice small goals towards that final goal. </p>
       <h1>What life coaching is not.</h1>

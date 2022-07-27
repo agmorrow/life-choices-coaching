@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <>
-      {/* Social icons */}
+   
       <div className='bg-[#333333] text-white flex justify-start items-center pb-4'>
         <ul className='inline-block mt-1 lg:mt-4'>
           <li>Carol Bartholow</li>

@@ -1,10 +1,10 @@
 import React from 'react'
 
-const HowItWorks = () => {
+const FAQ = () => {
   return (
  
 
-<div className="bg-lightblue py-20 px-4">
+<div className="bg-lightblue py-20 px-4 mt-8">
     <div className="mx-auto max-w-6xl flex flex-col md:flex-row">
         <h2 className="mr-8 w-full md:w-1/3 text-3xl font-extrabold leading-9">
             Frequently-asked questions
@@ -48,4 +48,4 @@ Life coaching is empowering and helps establish life long habits. When personal 
   )
 }
 
-export default HowItWorks
+export default FAQ

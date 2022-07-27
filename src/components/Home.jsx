@@ -1,20 +1,20 @@
 import React from 'react';
-import PlaceHolder from '../assets/placeholderhero.jpg';
 import PlaceHolderTwo from '../assets/placeholdertwo.png';
+
+
+
 
 export const Home = () => {
   return (
     <div>
-      <div className='w-full h-[400px] bg-gray-900/90 '>
-        <img className='w-full h-full' src={PlaceHolder} alt="/" />
-      </div>
       <h1 className='flex justify-center mt-6'> If this is a life threatening emergency, place call 911 or your local suicide prevention hotline.</h1>
+      
+      
 
+  {/* About */}
       <div className='w-full pt-20 text-black'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
-        <div className='max-w-[1000px] w-full grid grid-cols-2'>
-          
-        </div>
+        
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-1 px-1'>
           <div>
             <img src={PlaceHolderTwo} alt="/"   />
@@ -33,6 +33,10 @@ export const Home = () => {
         </div>
       </div>
     </div>
+
+      {/* Services */}
+
+      <h1 className='flex justify-center'>Services</h1>
   </div>
   );
 }

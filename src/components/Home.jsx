@@ -1,16 +1,9 @@
 import React from 'react';
 import PlaceHolderTwo from '../assets/placeholdertwo.png';
 
-
-
-
 export const Home = () => {
   return (
     <div>
-      <h1 className='flex justify-center mt-6'> If this is a life threatening emergency, place call 911 or your local suicide prevention hotline.</h1>
-      
-      
-
   {/* About */}
       <div className='w-full pt-20 text-black'>
       <div className='flex flex-col justify-center items-center w-full h-full'>

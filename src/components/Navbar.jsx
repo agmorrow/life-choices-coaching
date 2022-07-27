@@ -33,13 +33,13 @@ export default function Navbar() {
               <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
-                      <span className="sr-only">Workflow</span>
-                      <img
-                        alt="Workflow"
-                        className="h-8 w-auto sm:h-32 mt-10"
-                        src={LifeChoicesLogo}
-                      />
-                  
+                    <span className="sr-only">Workflow</span>
+                    <img
+                      alt="Workflow"
+                      className="h-8 w-auto sm:h-32 mt-10"
+                      src={LifeChoicesLogo}
+                    />
+
                     <div className="-mr-2 flex items-center md:hidden">
                       <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                         <span className="sr-only">Open main menu</span>
@@ -99,7 +99,7 @@ export default function Navbar() {
                       </a>
                     ))}
                   </div>
-               
+
                 </div>
               </Popover.Panel>
             </Transition>
@@ -108,7 +108,7 @@ export default function Navbar() {
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-               Start your journey today!
+                Start your journey today!
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
@@ -118,7 +118,7 @@ export default function Navbar() {
                 <div className="rounded-md shadow">
                   <Link as={Link} to='/contact' className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#639349] hover:bg-[#c0dda5] duration-500 md:py-4 md:text-lg md:px-10">Free Consultation</Link>
                 </div>
-                
+
               </div>
             </div>
           </main>

@@ -139,25 +139,25 @@ const services = [
   {
     name: 'Christian Counseling',
     description: 'Get a better understanding of where your traffic is coming from.',
-    href: '#',
+    href: '/christiancounseling',
     icon: ChartBarIcon,
   },
   {
     name: 'Crisis Coaching',
     description: 'Speak directly to your customers in a more meaningful way.',
-    href: '#',
+    href: 'crisiscoaching',
     icon: CursorClickIcon,
   },
   {
     name: 'Self Care',
     description: "Connect with third-party tools that you're already using.",
-    href: '#',
+    href: '/selfcare',
     icon: ViewGridIcon,
   },
   {
     name: 'Work / Life Balance',
     description: 'Build strategic funnels that will drive your customers to convert',
-    href: '#',
+    href: 'worklife',
     icon: RefreshIcon,
   },
 ]
@@ -166,24 +166,24 @@ const resources = [
   {
     name: 'Home',
     description: 'Get all of your questions answered in our forums or contact support.',
-    href: '#',
+    href: '/',
     icon: SupportIcon,
   },
   {
     name: 'FAQ',
     description: 'Learn how to maximize our platform to get the most out of it.',
-    href: '#',
+    href: '/faq',
     icon: BookmarkAltIcon,
   },
   {
     name: 'About',
     description: 'See what meet-ups and other events we might be planning near you.',
-    href: '#',
+    href: '/about',
     icon: CalendarIcon,
   },
   { name: 'Contact',
     description: 'Understand how we take your privacy seriously.',
-    href: '#', 
+    href: '/contact', 
     icon: ShieldCheckIcon },
 ]
 
@@ -197,14 +197,13 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="#">
               <span className="sr-only">Workflow</span>
               <img
-                className="h-8 w-auto sm:h-10"
+                className="h-24 w-auto sm:h-36"
                 src={LifeChoicesLogo}
                 alt=""
               />
-            </a>
+            
           </div>
           <div className="-mr-2 -my-2 md:hidden">
             <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -213,7 +212,7 @@ export default function Navbar() {
             </Popover.Button>
           </div>
           <Popover.Group as="nav" className="hidden md:flex space-x-10">
-          <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+          <a href="/" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Home
             </a>
             <Popover className="relative">
@@ -271,10 +270,10 @@ export default function Navbar() {
             </Popover>
 
            
-            <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="/faq" className="text-base font-medium text-gray-500 hover:text-gray-900">
               FAQ
             </a>
-            <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="/about" className="text-base font-medium text-gray-500 hover:text-gray-900">
               About
             </a>
             <Link as={Link} to='/contact'><Button>Contact</Button></Link>
@@ -298,7 +297,7 @@ export default function Navbar() {
               <div className="flex items-center justify-between">
                 <div>
                   <img
-                    className="h-8 w-auto"
+                    className="h-24 w-auto"
                     src={LifeChoicesLogo}
                     alt="Workflow"
                   />

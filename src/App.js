@@ -2,14 +2,14 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar'; 
 import Footer from './components/Footer';
-import Home from './components/Home';
-import ChristianCounseling from './components/dropdown/ChristianCounseling';
-import CrisisCoaching from './components/dropdown/CrisisCoaching';
-import SelfCare from './components/dropdown/SelfCare.jsx';
-import WorkLife from './components/dropdown/WorkLife';
-import FAQ from './components/FAQ';
-import About from './components/About';
-import Contact from './components/Contact';
+import Home from './pages/Home';
+import ChristianCounseling from './pages/dropdown/ChristianCounseling';
+import CrisisCoaching from './pages/dropdown/CrisisCoaching';
+import SelfCare from './pages/dropdown/SelfCare.jsx';
+import WorkLife from './pages/dropdown/WorkLife';
+import FAQ from './pages/FAQ';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 function App() {
   return (

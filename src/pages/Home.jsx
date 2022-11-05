@@ -29,7 +29,7 @@ export const Home = () => {
 
       {/* Services */}
 
-      <h1 className='flex justify-center'>Services</h1>
+      
   </div>
   );
 }
